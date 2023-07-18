@@ -12,8 +12,9 @@ function Home()
     let history = useNavigate();
     
     const handleDelete=(Id)=>{
+        
         var index=Employees.map(function(e){
-            return e.Id
+            return console.log(e.Id);
         }).indexOf(Id);
         Employees.splice(index,1);
         history('/');

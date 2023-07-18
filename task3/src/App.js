@@ -15,8 +15,10 @@ const App = () => {
     try {
       const response = await axios.get('https://jsonplaceholder.typicode.com/users');
       setUsers(response.data);
+      console.log(response);
       setLoading(false);
     } catch (error) {
+      
       console.log(error);
       setLoading(false);
     }

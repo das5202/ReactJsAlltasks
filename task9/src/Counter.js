@@ -15,9 +15,7 @@ const Counter = ({
   decrementBy5,
   resetCounter,
 }) => {
-  const memoizedValue = useMemo(() => {
-   
-  }, [/* List of dependencies */]);
+  
 
   return (
     <div>
