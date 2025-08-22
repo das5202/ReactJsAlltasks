@@ -1,1 +1,1 @@
-This repo contains the all the handons covering all topics 
+This repo contains the all the handons reactjs covering all topics 
