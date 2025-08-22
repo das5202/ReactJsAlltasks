@@ -1,1 +1,1 @@
-All the 10 tasks updated here in reactjs
+This repo contains the all the handons covering all topics 
